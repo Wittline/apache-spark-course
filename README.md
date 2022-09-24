@@ -1,2 +1,1 @@
-# apache-spark-course
-Apache Spark with python (PySpark) course
+# Apache Spark with python (PySpark)

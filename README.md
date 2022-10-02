@@ -1,1 +1,1 @@
-# Apache Spark with python (PySpark)
+# Apache Spark with PySpark

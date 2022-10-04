@@ -1,1 +1,1 @@
-# Apache Spark with PySpark
+# Apache Spark course

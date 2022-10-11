@@ -152,7 +152,7 @@
 
 9. Select `applications` under `serverless` from the left handside menu
 
-10 Select `create application` from the top right
+10. Select `create application` from the top right
 
 11. Enter a name for the Application. Leave the type as `Spark` and click `create application`
 

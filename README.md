@@ -164,7 +164,7 @@
 
 15. Click `Submit Job`
 
-16. job status will go from pending -> running -> success.
+16. job status will go from pending -> running -> (success or failed).
 
 ## Hive App
 

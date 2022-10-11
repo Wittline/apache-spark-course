@@ -9,5 +9,9 @@
             }
         }
     ],
-    "monitoringConfiguration": {}
+    "monitoringConfiguration": {
+        "s3MonitoringConfiguration": {
+            "logUri": "s3://DOC-EXAMPLE-BUCKET-LOGGING/logs/"
+        }
+    }
 }

@@ -182,8 +182,8 @@
 
 23. Submit Job and monintor. Job status will go from pending -> running -> success.
 
-24. Navigate to Glue databases and click emrdb
+24. Navigate to Glue databases and click emrdb 
 
-25. Look at table created
+25. Check the table created
 
 26. Select data using AWS Athena and check the created table.

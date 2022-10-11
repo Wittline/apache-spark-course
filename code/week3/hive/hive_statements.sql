@@ -25,5 +25,5 @@ WITH SERDEPROPERTIES (
 "escapeChar" = "\\"
 )
 STORED AS TEXTFILE
-LOCATION 's3://<s3-bucket-name>/datasets/'
+LOCATION 's3://racv-emr-serverless-bucket/datasets/'
 TBLPROPERTIES ('skip.header.line.count'='1')

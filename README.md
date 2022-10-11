@@ -121,7 +121,7 @@
 - Open S3 console 
 - create S3 bucket to use for this class
 
-4. Create Folder To use in S3 Bucket
+4. Create Folders to use in S3 Bucket
 - Create a `pyspark` folder
 - Create a `hive` folder
 - Create a `datasets` folder (We use this to upload a CSV to)

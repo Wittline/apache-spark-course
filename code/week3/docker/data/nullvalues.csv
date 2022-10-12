@@ -1,0 +1,5 @@
+Id,name,sales,customer
+emp1,John,,3
+emp2,,,
+emp3,,345,
+emp4,Cindy,456,4

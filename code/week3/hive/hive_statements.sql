@@ -20,5 +20,5 @@ CREATE EXTERNAL TABLE emrdb.airbnblistings
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
-LOCATION 's3://<s3-bucket>/datasets/'
+LOCATION 's3://racv-emr-serverless-bucket/datasets/'
 TBLPROPERTIES ('skip.header.line.count'='1');

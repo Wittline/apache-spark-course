@@ -4,7 +4,7 @@ import pyspark.sql.functions as F
 from pyspark.sql import SparkSession
 
 
-#s3://<s3-bucket>/datasets/test.txt,s3://<s3-bucket>/outputs/wordcount.csv
+#s3://racv-emr-serverless-bucket/datasets/test.txt, s3://racv-emr-serverless-bucket/outputs/wordcount.csv
 if __name__ == "__main__":
 
     if (len(sys.argv) != 3):

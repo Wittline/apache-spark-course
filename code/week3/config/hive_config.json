@@ -4,14 +4,14 @@
             "classification": "hive-site",
             "configurations": [],
             "properties": {
-                "hive.exec.scratchdir": "s3://<s3-bucket-name>/hive/scratch",
-                "hive.metastore.warehouse.dir": "s3://<s3-bucket-name>/hive/warehouse"
+                "hive.exec.scratchdir": "s3://racv-emr-serverless-bucket/hive/scratch",
+                "hive.metastore.warehouse.dir": "s3://racv-emr-serverless-bucket/hive/warehouse"
             }
         }
     ],
     "monitoringConfiguration": {
         "s3MonitoringConfiguration": {
-            "logUri": "s3://DOC-EXAMPLE-BUCKET-LOGGING/logs/"
+            "logUri": "s3://racv-emr-serverless-bucket/logs/"
         }
     }
 }

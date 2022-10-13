@@ -189,3 +189,4 @@
 26. Select data using AWS Athena and check the created table.
 
 # Week 3 - Class 2 - Dataframes
+# Week 3 - Class 3 - Project - Data Modelling and Planning

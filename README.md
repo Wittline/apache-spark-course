@@ -190,3 +190,6 @@
 
 # Week 3 - Class 2 - Dataframes
 # Week 3 - Class 3 - Project - Data Modelling and Planning
+
+- Dataset exploration
+

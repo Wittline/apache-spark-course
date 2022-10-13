@@ -187,3 +187,5 @@
 25. Check the table created
 
 26. Select data using AWS Athena and check the created table.
+
+# Week 3 - Class 2 - Dataframes

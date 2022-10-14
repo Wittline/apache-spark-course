@@ -222,7 +222,7 @@
 - Dimensions (COUNTY, ITEMS, STORE, VENDOR, DATES, CATEGORY)
 - Facts (purchases, sales)
 
-### DATA MODEL (SnowFlake Schema)
+## DATA MODEL (SnowFlake Schema)
 
 ## ETL Plan
 

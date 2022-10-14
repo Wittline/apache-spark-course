@@ -228,8 +228,8 @@
 
 ## ETL Plan
 
-- Crear un esquema para el dataset grande **StructType** y **StructField**
-- Leer el csv desde S3, y cargarlo en un dataframe con **.Cache()** o **.Persist()** y con un esquema definido.
-- Creamos un query para crear la tabla de hechos: **FACT**, el query va a usar el dataframe persistido que funcionara como zona de staging. En total es 1 query.
-- Creamos un query para crear cada tabla de dimensiones: **DIMENSIONS**, el query va a usar el dataframe persistido que funcionara como zona de staging. en total son 6 queries.
-- Data Quality script para verificar que los datos fueron cargados.
+- create a new schema for the large csv dataset using **StructType** y **StructField**
+- Read the .csv file from S3, and load the dataset using a dataframe using **.Cache()** or **.Persist()** with the already defined schema.
+- We will build a query in order to create the fact table: **FACT**, the query will use the dataframe already persited.
+- We will build 6 queries in order to create 6 *DIMENSIONS* tables using the datafrme already persisted.
+- A data quality script will be needed in order to check the load process.

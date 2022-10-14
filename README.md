@@ -224,6 +224,8 @@
 
 ## DATA MODEL (SnowFlake Schema)
 
+![image](https://user-images.githubusercontent.com/8701464/195738436-2f13aef0-0f0b-4e84-ad1c-7ed0379b5092.png)
+
 ## ETL Plan
 
 - Crear un esquema para el dataset grande **StructType** y **StructField**

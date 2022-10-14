@@ -191,5 +191,43 @@
 # Week 3 - Class 2 - Dataframes
 # Week 3 - Class 3 - Project - Data Modelling and Planning
 
-- Dataset exploration
+## Dataset exploration
+### columns :
+- 'Invoice/Item Number',
+- 'Date', 
+- 'Store Number',
+- 'Store Name',
+- 'Address',
+- 'City'
+- 'Zip Code'
+- 'Store Location'
+- 'County Number'
+- 'County'
+- 'Category',
+- 'Category Name'
+- 'Vendor Number'
+- 'Vendor Name',
+- 'Item Number'
+- 'Item Description'
+- 'Pack',
+- 'Bottle Volume (ml)'
+- 'State Bottle Cost',
+- 'State Bottle Retail'
+- 'Bottles Sold',
+- 'Sale (Dollars)',
+- 'Volume Sold (Liters)'
+- 'Volume Sold (Gallons)'
 
+### Tables
+- Dimensions (COUNTY, ITEMS, STORE, VENDOR, DATES, CATEGORY)
+- Facts (purchases, sales)
+
+### DATA MODEL (SnowFlake Schema)
+
+## ETL Plan
+
+- Crear un esquema para el dataset grande **StructType** y **StructField**
+- Leer el csv desde S3, y cargarlo en un dataframe con **.Cache()** o **.Persist()** y con un esquema definido.
+- Creamos un query para crear la tabla de hechos: **FACT**, el query va a usar el dataframe persistido que funcionara como zona de staging. En total es 1 query.
+- Creamos un query para crear cada tabla de dimensiones: **DIMENSIONS**, el query va a usar el dataframe persistido que funcionara como zona de staging. en total son 6 queries.
+- Data Quality script para verificar que los datos fueron cargados.

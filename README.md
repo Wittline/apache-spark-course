@@ -231,7 +231,7 @@
 - Create a new schema for the large csv dataset using **StructType** y **StructField**
 - Read the .csv file from S3, and load the dataset using a dataframe using **.Cache()** or **.Persist()** with the already defined schema.
 - Be careful with date columns and columns with currency symbols
-- Write 6 queries in order to create 6 *DIMENSIONS* tables using the dataframe already persisted.
+- Write 6 queries in order to create 6 **DIMENSIONS** tables using the dataframe already persisted.
 - Write a query in order to create the fact table: **FACT**, the query will use the dataframe already persited.
 - Additionally you could add another job that works as check data quality to verify the data
 - After this exercise please delete the glue catalog tables, delete the created workgroup, delete the applications in the emr-studio, delete the s3 bucket folders and delete the created roles.

@@ -80,7 +80,7 @@ if __name__ == "__main__":
     df = spark.read.option("header", "true")\
                .option("multiLine", "true")\
                .schema(end_schema)\
-               .csv(input_file)\
+               .csv(input_file)
                .withColumn("date_fixed",to_date(col("Date"), 'MM/dd/yyyy'))
 
     

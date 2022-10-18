@@ -1,5 +1,7 @@
 # Week 1 - Class 1
 
+
+
 # Week 1 - Class 2
 
 # Week 1 - Class 3
@@ -189,9 +191,15 @@
 26. Select data using AWS Athena and check the created table.
 
 # Week 3 - Class 2 - Dataframes
+
+
 # Week 3 - Class 3 - Project - Data Modelling and Planning
 
-## Dataset exploration
+
+## dataset: 
+ <a href="https://data.iowa.gov/Sales-Distribution/Iowa-Liquor-Sales/m3tr-qhgy">Iowa-Liquor-Sales</a>
+
+## Dataset exploration results
 ### columns :
 - 'Invoice/Item Number',
 - 'Date', 

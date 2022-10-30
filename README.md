@@ -13,7 +13,6 @@
 # Week 3 - Class 1- EMR Serverless
 
 ## Create Roles
-
 1. Create **EMR Notebook Role**
 - Open **IAM** and create the IAM role for the EMR notebook using the [emr notebook role json](code/week3/config/emr_notebook_rol_priv.json)
 

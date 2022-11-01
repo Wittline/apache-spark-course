@@ -10,6 +10,7 @@
 
 # Week 2 - Class 3
 
+
 # Week 3 - Class 1- EMR Serverless
 
 ## Create Roles
